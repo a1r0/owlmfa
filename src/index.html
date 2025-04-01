@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Authenticator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1A1A1A;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .code {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #333;
+            padding: 10px 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .timer {
+            font-size: 16px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Authenticator</h1>
+    <div class="container">
+        <div class="code">123 456</div>
+        <div class="timer">Expires in: 30s</div>
+    </div>
+    <button class="add-mfa">Add MFA</button>
+</body>
+</html>
